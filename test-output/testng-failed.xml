@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Automation Suite 1]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Search test(failed)">
+    <parameter name="searchtext" value="selenium tutorial"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="http://www.google.com"/>
+    <classes>
+      <class name="com.test.GoogleTest">
+        <methods>
+          <include name="googleSearch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.GoogleTest -->
+    </classes>
+  </test> <!-- Search test(failed) -->
+</suite> <!-- Failed suite [Test Automation Suite 1] -->

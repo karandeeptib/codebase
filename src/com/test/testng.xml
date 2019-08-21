@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+<suite name="Test Automation Suite 1">
+  <test name="Search test" >
+  
+  <parameter name="browser" value="chrome" />
+  <parameter name="url" value="http://www.google.com" />
+  <parameter name="searchtext" value="selenium tutorial" />  
+  
+    <classes>
+       <class name="com.test.GoogleTest" />
+    </classes>
+  </test>
+ 
+  <!-- <test name="Regression1">
+    <classes>
+      <class name="test.sample.ParameterSample"/>
+      <class name="test.sample.ParameterTest"/>
+    </classes>
+  </test> -->
+</suite>
